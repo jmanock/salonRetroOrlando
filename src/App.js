@@ -1,28 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import About from './Components/About';
+import Book from './Components/Book';
+import Contact from './Components/Contact';
+import Works from './Components/Works';
+import Header from './Components/Nav/Header';
+import Footer from './Components/Nav/Footer'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () =>(
+  <div>
+    <Header />
+    <About />
+    <Book />
+    <Contact />
+    <Works />
+    <Footer />
+  </div>
+);
 
 export default App;
