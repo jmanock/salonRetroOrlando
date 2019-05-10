@@ -7,7 +7,7 @@ import Header from './Components/Nav/Header';
 import Footer from './Components/Nav/Footer'
 
 const App = () =>(
-  <div>
+  <div className='container'>
     <Header />
     <About />
     <Book />

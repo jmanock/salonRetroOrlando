@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Footer = () =>{
-  return(
-    <div>
-      <h1>Footer</h1>
-    </div>
-  );
-};
+const Footer = () =>(
+  <footer className='page-footer'>
+    <h5 className='text-center'>&copy;2019 Salon Retro</h5>
+  </footer>
+)
 
 export default Footer;
