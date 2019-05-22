@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import Works from './Components/Works';
 import Header from './Components/Nav/Header';
 import Footer from './Components/Nav/Footer'
+import './App.css';
 
 const App = () =>(
   <div className='container'>
