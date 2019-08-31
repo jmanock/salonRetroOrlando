@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+html{
+  scroll-behavior:smooth;
+}
 body{
   font-family:'Quicksand';
+}
+.navbar-brand{
+  color:white !important;
+}
+.navbar{
+  background-color:#333 !important;
+}
+.nav-link{
+  color:gray !important;
+}
+.icon{
+  color:white !important;
+  margin-right:20px;
+}
+.logo{
+  width:250px;
+  height:75px;
 }
